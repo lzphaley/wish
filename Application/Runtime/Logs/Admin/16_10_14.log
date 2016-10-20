@@ -1,0 +1,1742 @@
+[ 2016-10-14T00:02:55+08:00 ] 127.0.0.1 /wish/admin.php?c=basic&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+
+[ 2016-10-14T00:02:57+08:00 ] 127.0.0.1 /wish/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: type F:\WWW\wish\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type F:\WWW\wish\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T00:49:10+08:00 ] 127.0.0.1 /wish/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: module F:\WWW\wish\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var F:\WWW\wish\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given F:\WWW\wish\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given F:\WWW\wish\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2016-10-14T00:59:28+08:00 ] 127.0.0.1 /wish/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023002s ]
+
+[ 2016-10-14T00:59:29+08:00 ] 127.0.0.1 /wish/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T00:59:37+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0936s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-10-14T00:59:38+08:00 ] 127.0.0.1 /wish/admin.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.244014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-14T00:59:40+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T00:59:57+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.2920s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.2660s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.2010s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0530s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:00:01+08:00 ] 127.0.0.1 /wish/admin.php?catid=8&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 8 AND `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `catid` = 8 AND `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:00:06+08:00 ] 127.0.0.1 /wish/admin.php?catid=12&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 12 AND `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `catid` = 12 AND `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:00:08+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:01:07+08:00 ] 127.0.0.1 /wish/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wish\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-10-14T01:01:32+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T01:01:38+08:00 ] 127.0.0.1 /wish/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 6 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 53 行.
+NOTIC: [8] Undefined index: pageSize F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 54 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:01:38+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T01:01:39+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:01:51+08:00 ] 127.0.0.1 /wish/admin.php?c=image&a=kindupload&dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wish\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-10-14T01:01:57+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:01:58+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:02:00+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:02:09+08:00 ] 127.0.0.1 /wish/admin.php?c=image&a=kindupload&dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wish\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-10-14T01:02:09+08:00 ] 127.0.0.1 /wish/admin.php?c=image&a=kindupload&dir=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wish\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-10-14T01:02:15+08:00 ] 127.0.0.1 /wish/admin.php?c=image&a=ajaxuploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant m - assumed 'm' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant d - assumed 'd' F:\WWW\wish\Application\Common\Model\UploadImageModel.class.php 第 19 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wish\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-10-14T01:02:48+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: news_id F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 59 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0050s ]
+SQL: INSERT INTO `cms_news` (`title`,`small_title`,`thumb`,`title_font_color`,`catid`,`copyfrom`,`description`,`keywords`,`create_time`,`username`) VALUES ('海贼王','冒险','/wish/upload/2016/10/14/57ffbe1773912.JPG','','8','0','探险','路飞 冒险','1476378168','admin') [ RunTime:0.0190s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsContentModel.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0556s ]
+SQL: INSERT INTO `cms_news_content` (`content`,`news_id`,`create_time`) VALUES ('<img src=\"/wish/upload/2016/10/14/57ffbe111a6e2.JPG\" alt=\"\" /><img src=\"/wish/upload/2016/10/14/57ffbe11670b9.JPG\" alt=\"\" />','31','1476378168') [ RunTime:0.0624s ]
+
+[ 2016-10-14T01:02:49+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:02:53+08:00 ] 127.0.0.1 /wish/admin.php?catid=12&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 12 AND `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `catid` = 12 AND `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:03:00+08:00 ] 127.0.0.1 /wish/admin.php?catid=&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:03:03+08:00 ] 127.0.0.1 /wish/admin.php?m=Admin&c=Content&a=index&catid=&title=&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 3,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:03:03+08:00 ] 127.0.0.1 /wish/admin.php?m=Admin&c=Content&a=index&catid=&title=&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 9,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:03:05+08:00 ] 127.0.0.1 /wish/admin.php?m=Admin&c=Content&a=index&catid=&title=&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 6,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:03:07+08:00 ] 127.0.0.1 /wish/admin.php?m=Admin&c=Content&a=index&catid=&title=&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 3,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:03:11+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=edit&id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=31 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsContentModel.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=31 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T01:03:18+08:00 ] 127.0.0.1 /wish/admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: UPDATE `cms_news` SET `title`='海贼王',`small_title`='冒险',`thumb`='/wish/upload/2016/10/14/57ffbe1773912.JPG',`title_font_color`='#ed568b',`catid`='12',`copyfrom`='0',`description`='探险',`keywords`='路飞 冒险' WHERE ( news_id=31 ) [ RunTime:0.0460s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsContentModel.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news_content` SET `content`='<img src=\"/wish/upload/2016/10/14/57ffbe111a6e2.JPG\" alt=\"\" /><img src=\"/wish/upload/2016/10/14/57ffbe11670b9.JPG\" alt=\"\" />' WHERE ( news_id=31 ) [ RunTime:0.0000s ]
+
+[ 2016-10-14T01:03:19+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:20:15+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:20:16+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:21:01+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:21:02+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:27:26+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:27:26+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:27:27+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:27:27+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:27:27+08:00 ] 127.0.0.1 /wish/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-14T01:29:52+08:00 ] 127.0.0.1 /wish/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:29:52+08:00 ] 127.0.0.1 /wish/index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:29:59+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:02+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:04+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:04+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:04+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:04+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:05+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:05+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:05+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:06+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:15+08:00 ] 127.0.0.1 /wish/admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:30:15+08:00 ] 127.0.0.1 /wish/admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:30:29+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:30+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:30+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:30+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:30:30+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant lastlogin - assumed 'lastlogin' F:\WWW\wish\Application\Admin\Controller\LoginController.class.php 第 38 行.
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2016-10-14T01:31:04+08:00 ] 127.0.0.1 /wish/admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:05+08:00 ] 127.0.0.1 /wish/admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:11+08:00 ] 127.0.0.1 /wish/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-14T01:31:12+08:00 ] 127.0.0.1 /wish/admin.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-14T01:31:15+08:00 ] 127.0.0.1 /wish/admin.php?c=position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 11 行.
+NOTIC: [8] Undefined index: position_id F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionContentModel.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Common\Model\PositionContentModel.class.php 第 11 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-14T01:31:16+08:00 ] 127.0.0.1 /wish/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) F:\WWW\wish\Application\Common\Model\BasicModel.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: type F:\WWW\wish\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type F:\WWW\wish\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:17+08:00 ] 127.0.0.1 /wish/admin.php?c=position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 11 行.
+NOTIC: [8] Undefined index: position_id F:\WWW\wish\Application\Admin\Controller\PositionController.class.php 第 15 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionContentModel.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Common\Model\PositionContentModel.class.php 第 11 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 2 ORDER BY listorder desc,id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+NOTIC: [8] Undefined variable: positionId F:\WWW\wish\Application\Runtime\Cache\Admin\3a437f75b5b60a521a3ad0fc93a5ab5f.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:20+08:00 ] 127.0.0.1 /wish/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 6 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 53 行.
+NOTIC: [8] Undefined index: pageSize F:\WWW\wish\Application\Admin\Controller\MenuController.class.php 第 54 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:20+08:00 ] 127.0.0.1 /wish/admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $model) F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 11 行.
+NOTIC: [8] Undefined index: title F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p F:\WWW\wish\Application\Admin\Controller\ContentController.class.php 第 23 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\PositionModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) F:\WWW\wish\Application\Common\Model\MenuModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: a F:\WWW\wish\Application\Common\Common\function.php 第 31 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined index: catid F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 115 行.
+NOTIC: [8] Undefined variable: new F:\WWW\wish\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-14T01:31:22+08:00 ] 127.0.0.1 /wish/admin.php?c=positioncontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Positioncontent
+

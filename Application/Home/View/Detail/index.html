@@ -1,0 +1,23 @@
+<include file="Index/header"/>
+<?php $vo = $result['news'];?>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-9">
+                <div class="news-detail">
+                    <h1>{$vo.title}</h1>
+                    <span>{$vo.create_time|date="Y-m-d H:i:s",###}</span>&nbsp;&nbsp;阅读(<i news-id="{$vo.news_id}" class="news_count node-{$vo.news_id}">{$vo.count}</i>)
+                    <p>{$vo.content}</p>
+                    <p>（{$vo.username}）</p>
+                    <span>关键字：</span><a href="#">{$vo.keywords}</a>
+                </div>
+            </div>
+            <!--网站右侧信息-->
+            <include file="Index/right"/>
+        </div>
+    </div>
+</section>
+</body>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script></script>
+</html>
